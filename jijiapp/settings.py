@@ -91,7 +91,7 @@ WSGI_APPLICATION = 'jijiapp.wsgi.application'
 # }
 
 DATABASES={
-    'default':dj_database_url.parse("postgres://jiji_database_user:QEz6AqdE1vliJjupW5cEXYcv6jB7NnTW@dpg-cpk8cvsf7o1s73ckkk4g-a.oregon-postgres.render.com/jiji_database")
+    'default':dj_database_url.parse("postgres://jiji_database_user:QEz6AqdE1vliJjupW5cEXYcv6jB7NnTW@dpg-cpk8cvsf7o1s73ckkk4g-a/jiji_database")
 }
 
 
