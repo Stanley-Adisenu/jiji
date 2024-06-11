@@ -1,1 +1,1 @@
-web: gunicorn jiji.wsgi --log-file -
+web: gunicorn jijiapp.wsgi --log-file -
