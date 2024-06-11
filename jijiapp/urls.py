@@ -24,8 +24,8 @@ urlpatterns = [
     path('api_schema',get_schema_view(title= 'API schema',description='Guide for the REST API'), name='api_schema'),
     path('admin/', admin.site.urls),
     path('jiji/', include('jiji.urls')),
-    path('swagger-ui/', TemplateView.as_view(
-        template_name='docs.html',
-        extra_context={'schema_url':'api_schema'}
-        ), name='swagger-ui'),
+    # path('swagger-ui/', TemplateView.as_view(
+    #     template_name='docs.html',
+    #     extra_context={'schema_url':'api_schema'}
+    #     ), name='swagger-ui'),
 ]
